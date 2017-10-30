@@ -1,0 +1,13 @@
+<h1>Welcome <%= current_user.first_name.capitalize %></h1>
+<div>Established Connections
+    <% current_user.chats.each do |chat| %>
+    <ul>
+        <li>Chat with: <%= link_to chat.content %></li>
+    </ul>
+    <% end %>
+</div>
+<div>
+<% if current_user.giver == true %>
+        <%= link_to "New connection?", chats_path %>
+<% end %>
+</div>

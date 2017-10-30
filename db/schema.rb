@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171030160901) do
+ActiveRecord::Schema.define(version: 20171030223008) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,6 +20,8 @@ ActiveRecord::Schema.define(version: 20171030160901) do
     t.bigint "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "needer_id", null: false
+    t.boolean "active", default: true
     t.index ["user_id"], name: "index_chats_on_user_id"
   end
 
@@ -37,7 +39,7 @@ ActiveRecord::Schema.define(version: 20171030160901) do
     t.string "e_mail"
     t.string "password_digest"
     t.string "image"
-    t.boolean "giver"
+    t.boolean "giver", default: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "password"

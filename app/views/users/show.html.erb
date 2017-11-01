@@ -1,13 +1,17 @@
-<h1>Welcome <%= current_user.first_name.capitalize %></h1>
-<div class="connections">
-    <p>Established Connections
-        <ul>
-            <li><%= current_user %></li>
-        </ul>
-    </p>
-</div>
-<div class="new_connect">
-    <% if current_user.giver == true %>
-        <%= link_to "New connection?", new_chat_path %>
-    <% end %>
+<div class="container">
+    <div class="span12">
+        <h1>Welcome <%= current_user.first_name.capitalize %></h1>
+        <div class="connections">
+            <p>Established Connections
+                <ul>
+                    <li><%= current_user %></li>
+                </ul>
+            </p>
+        </div>
+        <div class="new_connect">
+            <% if current_user.giver == true %>
+                <%= link_to "New connection?", new_chat_path %>
+            <% end %>
+        </div>
+    </div>
 </div>

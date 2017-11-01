@@ -1,13 +1,31 @@
-<h1>Welcome <%= current_user.first_name.capitalize %></h1>
-<div>Established Connections
-    <% current_user.chats.each do |chat| %>
-    <div>
-        Chat with: <%= link_to chat.user.first_name %>
+<div class="container">
+    <div class="span12">
+        <h1>Welcome <%= current_user.first_name.capitalize %></h1>
+        <div>Established Connections
+            <% current_user.chats.each do |chat| %>
+            <% if current_user.giver %>
+            <div class="user_chats">
+                Chat with: <%= chat.needer.first_name %>
+                <div class="btn pull-right">
+                <%= button_to "Connect", chat_path(chat.id), method: "get" %>
+                <%= button_to "Delete", chat_path(chat.id), method: "delete" %>
+                </div>
+            </div>
+            <% else %>
+            <div class="user_chats">
+                Chat with: <%= chat.user.first_name %>
+                <div class="btn pull-right">
+                <%= button_to "Connect", chat_path(chat.id), method: "get" %>
+                <%= button_to "Delete", chat_path(chat.id), method: "delete" %>
+                </div>
+            </div>
+            <% end %>
+            <% end %>
+        </div>
+        <div>
+        <% if current_user.giver %>
+                <%= link_to "New connection?", chats_path, method: :post %>
+        <% end %>
+        </div>
     </div>
-    <% end %>
-</div>
-<div>
-<% if current_user.giver == true %>
-        <%= link_to "New connection?", chats_path %>
-<% end %>
 </div>

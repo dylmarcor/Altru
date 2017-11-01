@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+.container {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.btn-delete {
+    height: 20px;
+    width: 80px;
+    font-size: 10px;
+}
+
+.header {
+    background-color: olive;
+}

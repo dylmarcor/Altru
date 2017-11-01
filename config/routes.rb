@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   resources :users, only: [:new, :create]
   resources :sessions, only: [:new, :create, :destroy]
   resources :chats, except: [:new] do
-    # resources :messages, only: [:create, :destroy], shallow: true
+    resources :messages, only: [:create, :destroy], shallow: true
   end
 
   get '/pages/:page', to: 'pages#show'

@@ -1,12 +1,6 @@
-<div class="container">
-    <div class="row">
-        <div class="mx-auto" style="width: auto;">
-            <h1 class="splashtitle">Welcome to Altru!</h1>
-        </div>
-    </div>
-    <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg class="tree" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 768 1024" style="enable-background:new 0 0 768 1024;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#262122;}
@@ -212,5 +206,3 @@
 	 M331.9,598.4c3.8-7,6.9-12.8,9.4-17.6c-3.6,0.2-7.5,0.5-11.9,0.9c4-2,8.5-3,13.2-3.5c15.8-30.9,1-12.1-26.6,18.2
 	c25.5-47.8-11.2-13.9-28.9,6c4.2-1.2,8.1-2.7,12.5-3.7C312.6,595.9,323,597,331.9,598.4z"/>
 </svg>
-
-</div>

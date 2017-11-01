@@ -25,6 +25,13 @@
     font-size: 10px;
 }
 
+.splashtitle {
+    font-size: 10em;
+}
+
+.tree {
+    position: relative;
+}
+
 .header {
-    background-color: olive;
 }

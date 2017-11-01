@@ -5,18 +5,26 @@
             <% current_user.chats.each do |chat| %>
             <% if current_user.giver %>
             <div class="user_chats">
-                Chat with: <%= chat.needer.first_name %>
-                <div class="btn pull-right">
-                <%= button_to "Connect", chat_path(chat.id), method: "get" %>
-                <%= button_to "Delete", chat_path(chat.id), method: "delete" %>
+                <div class="row">
+                        Chat with: <%= chat.needer.first_name %>
+                        <div class="col-md-1 ml-auto">
+                            <%= button_to "Connect", chat_path(chat.id), method: "get" %>
+                        </div>
+                        <div class="col-md-1">
+                            <%= button_to "Delete", chat_path(chat.id), method: "delete" %>
+                        </div>
                 </div>
             </div>
             <% else %>
             <div class="user_chats">
-                Chat with: <%= chat.user.first_name %>
-                <div class="btn pull-right">
-                <%= button_to "Connect", chat_path(chat.id), method: "get" %>
-                <%= button_to "Delete", chat_path(chat.id), method: "delete" %>
+                <div class="row">
+                        Chat with: <%= chat.user.first_name %>
+                        <div class="col-8 col-sm-6">
+                            <%= button_to "Connect", chat_path(chat.id), method: "get" %>
+                        </div>
+                        <div class="col-4 col-sm-6">
+                            <%= button_to "Delete", chat_path(chat.id), method: "delete" %>
+                        </div>
                 </div>
             </div>
             <% end %>

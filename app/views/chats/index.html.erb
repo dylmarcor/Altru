@@ -6,7 +6,7 @@
             <% if current_user.giver %>
             <div class="user_chats">
                 <div class="row">
-                    Chat with: <%= chat.needer.first_name %>
+                    Chat with: <%= chat.user.first_name %>
                     <div class="col-md-1 ml-auto">
                         <%= button_to "Connect", chat_path(chat.id), method: "get" %>
                     </div>
@@ -19,10 +19,10 @@
             <div class="user_chats">
                 <div class="row">
                     Chat with: <%= chat.user.first_name %>
-                    <div class="col-8 col-sm-6">
+                    <div class="col-md-1 ml-auto">
                         <%= button_to "Connect", chat_path(chat.id), method: "get" %>
                     </div>
-                    <div class="col-4 col-sm-6">
+                    <div class="col-md-1">
                         <%= button_to "Delete", chat_path(chat.id), method: "delete" %>
                     </div>
                 </div>

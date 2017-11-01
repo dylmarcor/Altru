@@ -11,9 +11,9 @@
             <%= submit_tag "Post" %>
         <% end %>
         <% @msgs.each do |msg| %>
-            <% msg_class = current_user.giver ? 'giver-msg' : 'needer-msg' %>
+            <% msg_class = msg.chat.user.giver ? 'giver-msg' : 'needer-msg' %>
             <div class="<%=msg_class%>">
-                <%= msg.content %>
+                <%= msg.content %>&nbsp;&nbsp;&nbsp;&nbsp;
                 <%= msg.author %>
             </div>
         <%end%>

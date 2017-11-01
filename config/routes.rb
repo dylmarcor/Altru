@@ -11,4 +11,6 @@ Rails.application.routes.draw do
   get '/pages/:page', to: 'pages#show'
 
   get '/login', to: 'sessions#new'
+
+  get '/pages', to: 'pages#help'
 end

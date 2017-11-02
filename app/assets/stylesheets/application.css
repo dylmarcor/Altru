@@ -24,6 +24,17 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: tan;
+    color: white;
+    text-align: center;
+    font-size: 1vw;
+}
+
 .btn-delete {
     height: 20px;
     width: 80px;
@@ -70,6 +81,7 @@ body {
 }
 
 .helpcontainer {
+    margin-top: 30px;
     width: auto;
     height: 100px;
     display: flex;
@@ -84,6 +96,10 @@ body {
     font-size: 2vw;
 }
 
+.user-connect {
+    margin: 30px 0;
+}
+
 .user-name {
     padding: 5px;
 }
@@ -93,7 +109,8 @@ body {
     padding: 20px;
 }
 
-#post {
+#backbutton {
+    margin-top: 50px;
 }
 
 #welcome-user {

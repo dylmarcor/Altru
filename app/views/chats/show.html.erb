@@ -1,10 +1,12 @@
 <div class="container">
     <div class="span12">
+        <div class ="user-connect">
         <h1>Connection with: <% if current_user == @chat.user %>
         <%= @chat.needer.first_name %>
         <% else %>
         <%= @chat.user.first_name %>
         <% end %> </h1>
+        </div>
         <div>
         <%= form_tag(chat_messages_path(@chat.id), method: "post") do %>
             <%= text_area_tag "content", nil, rows: 10, cols: 66 %>

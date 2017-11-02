@@ -18,7 +18,7 @@
             <% msg_class = msg.chat.user.giver ? 'giver-msg' : 'needer-msg' %>
             <div class="<%=msg_class%>">
                 <%= msg.content %>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span class="user"><%= msg.author %></span>
+                <span class="user">-<%= msg.author %></span>
             </div>
         <%end%>
         </div>

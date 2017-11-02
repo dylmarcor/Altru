@@ -33,6 +33,7 @@
     color: white;
     text-align: center;
     font-size: 1vw;
+    box-shadow: 0 -2px 2px #000000;
 }
 
 .btn-delete {
@@ -63,10 +64,11 @@
 
 
 .needer-msg {
-    color: red;
+    color: red
 }
 
 .user {
+    text-decoration: bold;
 }
 
 html {

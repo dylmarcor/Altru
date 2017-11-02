@@ -6,7 +6,7 @@
             <% if current_user.giver %>
             <div class="user_chats">
                 <div class="row">
-                    Chat with: <%= chat.user.first_name %>
+                    Chat with: <%= chat.needer.first_name %>
                     <div class="col-md-1 ml-auto">
                         <%= button_to "Connect", chat_path(chat.id), method: "get" %>
                     </div>

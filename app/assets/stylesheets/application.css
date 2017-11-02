@@ -14,8 +14,14 @@
  *= require_self
  */
 
+ nav {
+     display: block;
+     background-color: tan;
+     box-shadow: 2px 2px 2px #000000;
+ }
+
 .container {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Merriweather', serif;
     font-weight: bold;
 }
 
@@ -26,7 +32,7 @@
 }
 
 .splashtitle {
-    font-size: 10vw;
+    font-size: 8vw;
 }
 
 .tree {
@@ -42,6 +48,7 @@
     background-color: white;
     color: black; 
     font-size: 12px; 
+    box-shadow: 5px 5px 5px #000000;
 }
 
 

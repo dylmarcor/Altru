@@ -7,8 +7,10 @@
         <% end %> </h1>
         <div>
         <%= form_tag(chat_messages_path(@chat.id), method: "post") do %>
-            <%= text_area_tag "content", nil, rows: 10, cols: 100 %>
-            <%= submit_tag "Post" %>
+            <%= text_area_tag "content", nil, rows: 10, cols: 66 %>
+            <div class="col-md-7  ml-auto" id="post">
+            <%= submit_tag "Post", class: "btn" %>
+            </div>
         <% end %>
         <% @msgs.each do |msg| %>
             <% msg_class = msg.chat.user.giver ? 'giver-msg' : 'needer-msg' %>

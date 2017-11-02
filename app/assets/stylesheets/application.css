@@ -21,8 +21,7 @@
  }
 
 .container {
-    font-family: 'Merriweather', serif;
-    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .btn-delete {
@@ -59,8 +58,15 @@
 .user {
 }
 
-html, body {
+html {
+    height: 100%;
+}
+
+body {
     height: 100px;
+    margin: 0;
+    background: linear-gradient(white, rgb(252, 239, 206));
+    background-attachment: fixed;
 }
 
 .helpcontainer {
@@ -70,4 +76,26 @@ html, body {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.connect {
+    padding: 10px;
+    text-decoration: underline;
+    font-size: 2vw;
+}
+
+.user-name {
+    padding: 5px;
+}
+
+.new-user {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#post {
+}
+
+#welcome-user {
+    padding: 10px;
 }

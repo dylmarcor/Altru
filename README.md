@@ -20,9 +20,9 @@ Connect to your server! Should be ```localhost:3000```
 
 ## Screenshots
 
-! (https://github.com/dylmarcor/altru/blob/master/app/assets/images/altru.jpg)
+<img src="https://github.com/dylmarcor/altru/blob/master/app/assets/images/altru.jpg">
 
-! (https://github.com/dylmarcor/altru/blob/master/app/assets/images/Chats.jpg)
+<img src="https://github.com/dylmarcor/altru/blob/master/app/assets/images/Chats.jpg">
 
 ## Technical
 

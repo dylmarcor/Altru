@@ -16,7 +16,7 @@ Seed your database ```rails db:seed```
 
 Run the rails server ```rails s``` or ```rails server```
 
-Connect to your server! Should be ```localhost:3000
+Connect to your server! Should be ```localhost:3000```
 
 ## Technical
 

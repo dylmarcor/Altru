@@ -18,6 +18,11 @@ Run the rails server ```rails s``` or ```rails server```
 
 Connect to your server! Should be ```localhost:3000```
 
+## Screenshots
+
+!(app/assets/images/altru.jpg)
+!(app/assets/images/Chats.jpg)
+
 ## Technical
 
 The program was written using Ruby on Rails. The database utilizes PostgreSQL.

@@ -6,11 +6,16 @@ Altru is a charity application designed to connect strangers. It allows user to 
 
 ## Getting Started
 
-Run this in terminal ```git clone https://github.com/dylmarcor/altru
-Create the database ```rails db:create
-Migrate the database ```rails db:migrate
-Seed your database ```rails db:seed
-Run the rails server ```rails s
+Run this in terminal ```git clone https://github.com/dylmarcor/altru```
+
+Create the database ```rails db:create```
+
+Migrate the database ```rails db:migrate```
+
+Seed your database ```rails db:seed```
+
+Run the rails server ```rails s``` or ```rails server```
+
 Connect to your server! Should be ```localhost:3000
 
 ## Technical

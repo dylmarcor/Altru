@@ -4,6 +4,15 @@
 
 Altru is a charity application designed to connect strangers. It allows user to sign up as someone in need or someone willing to give. The hope of the app is to break down some of the walls created by a more disconnected culture and allow you to discover first hand what someone is going through.
 
+## Getting Started
+
+Run this in terminal ```git clone https://github.com/dylmarcor/altru
+Create the database ```rails db:create
+Migrate the database ```rails db:migrate
+Seed your database ```rails db:seed
+Run the rails server ```rails s
+Connect to your server! Should be ```localhost:3000
+
 ## Technical
 
 The program as written using Ruby on Rails. The database utilizes PostgreSQL.
@@ -13,7 +22,6 @@ The program as written using Ruby on Rails. The database utilizes PostgreSQL.
 The app is simple. Create an account and designate whether you wish to be a needer or a giver. If you are a giver the option to randomly connect will be on your home page.
 
 https://young-eyrie-80545.herokuapp.com/
-
 
 ## Future
 

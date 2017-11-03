@@ -20,8 +20,8 @@ Connect to your server! Should be ```localhost:3000```
 
 ## Screenshots
 
-!(app/assets/images/altru.jpg)
-!(app/assets/images/Chats.jpg)
+!(https://github.com/dylmarcor/altru/app/assets/images/altru.jpg)
+!(https://github.com/dylmarcor/altru/app/assets/images/Chats.jpg)
 
 ## Technical
 

@@ -12,6 +12,11 @@ The program as written using Ruby on Rails. The database utilizes PostgreSQL.
 
 The app is simple. Create an account and designate whether you wish to be a needer or a giver. If you are a giver the option to randomly connect will be on your home page.
 
+https://young-eyrie-80545.herokuapp.com/
+
+
 ## Future
 
 I would like to add more user functionality so that someone in need can list actual items that they could use. That way a giver can choose to directly help in those regards. Also I would like needer's to provide more information about themselves so that someone willing to give can discover more information about them.
+
+https://trello.com/b/hxRedQkJ/altru

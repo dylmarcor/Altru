@@ -20,7 +20,7 @@ Connect to your server! Should be ```localhost:3000```
 
 ## Technical
 
-The program as written using Ruby on Rails. The database utilizes PostgreSQL.
+The program was written using Ruby on Rails. The database utilizes PostgreSQL.
 
 ## How To
 
